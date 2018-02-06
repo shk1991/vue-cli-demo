@@ -1,14 +1,15 @@
 
-import Vue from 'vue'
-import store from './store'
-import App from './App'
-import router from './router/router'
+import Vue from 'vue';
+import store from './store';
+import App from './App';
+import router from './router/router';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
+/* eslint-disable no-new */
 new Vue({
     el: '#app',
     store,
     router,
-    render: h=>h(App)
-})
+    render: h => h(App)
+});

@@ -1,7 +1,7 @@
-const setToken = (state,str) => {
+const setToken = (state, str) => {
     state.token = str;
-}
+};
 
 export {
     setToken
-}
+};

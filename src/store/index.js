@@ -29,7 +29,7 @@ const store = new Vuex.Store({
     strict: debug
 });
 
-if(module.hot){
+if (module.hot) {
     module.hot.accept([
         // './getters',
         './actions',
@@ -39,8 +39,8 @@ if(module.hot){
             // getters: require('./getters').default,
             actions: require('./actions').default,
             mutations: require('./mutations').default
-        })
-    })
+        });
+    });
 }
 
 export default store;
